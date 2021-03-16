@@ -50,3 +50,4 @@ class Line extends Observable {
 
 	return llargada.length();
 	}
+}

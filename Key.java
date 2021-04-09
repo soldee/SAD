@@ -7,8 +7,7 @@ public class Key {
 	public static final int INSERT = 132;
 	public static final int DEL = 133;
 	public static final int UP = 134;
-	public static final int DOWN = 135;
-	public static final int DEFAULT = 136;	
+	public static final int DOWN = 135;	
 }
 
 

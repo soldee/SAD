@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <body>
+  <title>Web scraping</title>
+ </body>
+ <script type="text/javascript">
+
+	var proxy = "https://cors-anywhere.herokuapp.com/";
+	var url = "https://www.google.com";
+
+	let req = new XMLHttpRequest();
+	req.onreadystatechange = function () {
+		let response = this.responseText;
+		document.body.innerHTML = response;
+	}
+
+	req.open("GET", proxy+url);
+	req.send();
+
+ </script>
+</html
